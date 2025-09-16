@@ -7,7 +7,7 @@ const About_us = () => {
       <div className='max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
         <div>
           <p className='text-markyetcolor font-semibold uppercase text-sm tracking-wide'>About Us</p>
-          <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mt-2'> Driving Growth Through<span class="text-markyetcolor">Data & Creativity</span></h2>
+          <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mt-2'> Driving Growth Through <span class="text-markyetcolor">Data & Creativity</span></h2>
           <p className='text-gray-600 mt-6 leading-relaxe'>At <span className='font-semibold'>Markyet</span> we believe digital marketing is more than just ads — 
         it’s about creating meaningful connections that fuel measurable growth.  
         Our team blends strategy, creativity, and analytics to craft campaigns that not only engage, 

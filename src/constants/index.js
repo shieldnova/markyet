@@ -24,7 +24,7 @@ export const serviceLinks = [
     img:GraphicDesign,
   },
   {
-    name: 'Advertising',
+    name: 'Advertising & Social Media Marketing',
     value: 'Paid ad campaigns across Google, Meta, and more — built to maximize ROI.',
     img:Advertising,
   },

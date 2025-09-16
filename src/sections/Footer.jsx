@@ -12,21 +12,21 @@ const Footer = () => {
             <div>
                 <h3 class="text-white font-semibold text-lg">Quick Links</h3>
                 <ul class="mt-4 space-y-2 text-sm">
-                    <li><a href="#" class="hover:text-markyetcolor">Home</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">About Us</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">Services</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">Projects</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">Blog</a></li>
+                    <li><a href="#home" class="hover:text-markyetcolor">Home</a></li>
+                    <li><a href="#about" class="hover:text-markyetcolor">About Us</a></li>
+                    <li><a href="#services" class="hover:text-markyetcolor">Services</a></li>
+                    <li><a href="#projects" class="hover:text-markyetcolor">Projects</a></li>
+                    <li><a href="#blog" class="hover:text-markyetcolor">Blog</a></li>
                 </ul>
             </div>
             <div>
                 <h3 class="text-white font-semibold text-lg">Services</h3>
                 <ul class="mt-4 space-y-2 text-sm">
-                    <li><a href="#" class="hover:text-markyetcolor">Social Media</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">SEO & Content</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">Web Design</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">Ads & Campaigns</a></li>
-                    <li><a href="#" class="hover:text-markyetcolor">Analytics</a></li>
+                    <li><a href="#services" class="hover:text-markyetcolor">Social Media</a></li>
+                    <li><a href="#services" class="hover:text-markyetcolor">SEO & Content</a></li>
+                    <li><a href="#services" class="hover:text-markyetcolor">Web Design</a></li>
+                    <li><a href="#services" class="hover:text-markyetcolor">Ads & Campaigns</a></li>
+                    <li><a href="#services" class="hover:text-markyetcolor">Analytics</a></li>
                 </ul>
             </div>
 
@@ -34,9 +34,9 @@ const Footer = () => {
 
             <div>
                 <h3 class="text-white font-semibold text-lg">Contact Us</h3>
-                <p class="text-gray-400 mt-4 text-sm">📍 New York, USA</p>
-                <p class="text-gray-400 text-sm">📞 +1 (234) 567-890</p>
-                <p class="text-gray-400 text-sm">✉️ hello@markyet.com</p>
+                <p class="text-gray-400 mt-4 text-sm">📍Guntur, Andhra Pradesh, India</p>
+                <p class="text-gray-400 text-sm">📞 +91 7995673300</p>
+                <p class="text-gray-400 text-sm">✉️ teammarkyet@gmail.com</p>
                 <div class="flex space-x-4 mt-4">
                     <a href="#" class="text-gray-400 hover:text-markyetcolor">🌐</a>
                     <a href="#" class="text-gray-400 hover:text-markyetcolor">🐦</a>

@@ -14,9 +14,9 @@ const Contact = () => {
                     Fill out the form and our team will get back to you within 24 hours.  
                 </p>
                 <div className='mt-8 space-y-4'>
-                    <p class="text-gray-700">📍 New York, USA</p>
-                    <p class="text-gray-700">📞 +1 (234) 567-890</p>
-                    <p class="text-gray-700">✉️ hello@markyet.com</p>   
+                    <p class="text-gray-700">📍 Guntur, Andhra Pradesh, India</p>
+                    <p class="text-gray-700">📞 +91 7995673300</p>
+                    <p class="text-gray-700">✉️ teammarkyet@gmail.com</p>   
                 </div>
             </div> 
         <div className='bg-white shadow-lg rounded-2xl p-8'>
