@@ -1,6 +1,7 @@
 import React from 'react'
 import { keyValues } from '../constants'
 import KeyValuesCard from '../components/KeyValuesCard'
+import { Clients } from '../assets/images'
 const About_us = () => {
   return (
     <section id="about" className='bg-gray-50 py-20'>
@@ -30,7 +31,7 @@ const About_us = () => {
         </div>
         {/*Image Section*/}
         <div className='relative'>
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" 
+          <img src={Clients}
            alt="About Markyet Team" 
            className="rounded-2xl shadow-lg"></img>
            <div className="absolute -bottom-6 -left-6 bg-white shadow-lg rounded-xl px-6 py-4">

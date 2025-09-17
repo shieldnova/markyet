@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { HeroImage } from '../assets/images'
+import { AnotherHeroImage } from '../assets/images'
 const Hero = () => {
   return (
     <section id="home" className='bg-gray-100'>
@@ -21,7 +22,7 @@ const Hero = () => {
             {/*End of Left Section*/}
             {/*Right Side Image*/}
             <div className='relative'>
-                 <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1600&auto=format&fit=crop" alt="Marketing dashboard" class="rounded-2xl shadow-lg"></img>
+                 <img src={AnotherHeroImage} alt="Marketing dashboard" class="rounded-2xl shadow-lg"></img>
                  {/*Floating Stat Cards-1*/}
                  <div className="absolute -bottom-6 left-6 bg-white rounded-xl shadow-lg p-4 w-35">
                     <p className="text-gray-500 text-sm">Campaign ROI</p>
