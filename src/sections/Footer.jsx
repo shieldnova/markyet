@@ -1,11 +1,15 @@
 import React from 'react'
+import { MarkLogo } from '../assets/images'
 
 const Footer = () => {
   return (
     <footer className='bg-gray-900 text-gray-300 py-16'>
         <div className='max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10'>
            <div>
-                <h2 className='text-2xl font-bold text-markyetcolor'>MARK<span className='text-white'>YET</span></h2>
+                 <div className="flex items-center gap-2">
+                            <img src={MarkLogo} alt="Markyet Logo" className="w-22 h-7 object-contain" />
+                </div>
+                
                 <p className='text-gray-400 mt-4 text-sm leading-relaxed'> Helping brands win the digital market with data-driven strategies, 
                 creativity, and innovation.</p>
            </div> 
