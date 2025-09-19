@@ -24,11 +24,11 @@ const Hero = () => {
             <div className='relative'>
                  <img src={AnotherHeroImage} alt="Marketing dashboard" class="rounded-2xl shadow-lg"></img>
                  {/*Floating Stat Cards-1*/}
-                 <div className="absolute -bottom-6 left-6 bg-white rounded-xl shadow-lg p-4 w-35">
+                 <div className="absolute -bottom-6 left-6 bg-white rounded-xl shadow-2xl p-2 w-28">
                     <p className="text-gray-500 text-sm">Campaign ROI</p>
                     <p className="text-2xl font-bold text-markyetcolor">+327%</p>           
                 </div>
-                <div className="absolute top-6 right-6 bg-white rounded-xl shadow-lg p-4 w-35">
+                <div className="absolute top-2 right-2 bg-white rounded-xl shadow-2xl p-2 w-30">
                     <p className="text-gray-500 text-sm">Leads Generated</p>
                     <p className="text-2xl font-bold text-markyetcolor">+1,200</p>
                 </div>

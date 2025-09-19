@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { navLinks } from '../constants'
 import { hamburger } from "../assets/icons"
-
+import { MarkLogo } from '../assets/images'
 const Nav = () => {
   const [active, setActive] = useState("#home")
   const [menuOpen, setMenuOpen] = useState(false) // 👈 state for mobile menu
@@ -10,11 +10,10 @@ const Nav = () => {
     <header className="flex justify-center py-4 bg-gray-100">
       <nav className="fixed z-50 bg-gray-50 rounded-full w-[90%] min-w-9xl flex justify-between items-center px-10 py-3 shadow max-container animate-drop">
         {/* Logo */}
-        <div>
-          <span className="text-markyetcolor font-extrabold">
-            Market<span className="text-black">Yet</span>
-          </span>
+        <div className="flex items-center gap-2">
+            <img src={MarkLogo} alt="Markyet Logo" className="w-22 h-7 object-contain" />
         </div>
+
 
         {/* Desktop Menu */}
         <ul className="bg-gray-100 flex justify-center items-center gap-16 rounded-full px-4 py-2 max-lg:hidden">
